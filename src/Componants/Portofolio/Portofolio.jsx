@@ -4,8 +4,8 @@ import Elzero from '../../assets/elzero.png'
 import Dashbord from '../../assets/Dashbord.png'
 import Moviex from '../../assets/moviex.png'
 import HardRock from '../../assets/Hard-Rock.png'
-import { FaEye } from "react-icons/fa";
-import { IoIosAttach } from "react-icons/io";
+import  FaEye  from "../../assets/icons8-eye-100.png";
+import  IoIosAttach  from "../../assets/icons8-attachment-100.png";
 const repos=[
     {
         img:Kasper,
@@ -58,8 +58,8 @@ function Portofollio(){
                             <p>{repo.title}</p>
                             <span>{repo.dis}</span>
                             <div className='links'>
-                                <a href={repo.link} target='_blank'><FaEye/></a>
-                                <a href={repo.reoLink} target='_blank'><IoIosAttach/></a>
+                                <a href={repo.link} target='_blank'><img src={FaEye}/></a>
+                                <a href={repo.reoLink} target='_blank'><img src={IoIosAttach} alt="" /></a>
                             </div>
                         </div>
                     </div>
