@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       {load ? (
-        <AnimatePresence>
           <div className="loader">
             <div className="dot"></div>
             <div className="dot"></div>
@@ -26,7 +25,6 @@ function App() {
             <div className="dot"></div>
             <div className="dot"></div>
           </div>
-        </AnimatePresence>
       ) : (
         <>
           <Landing />
