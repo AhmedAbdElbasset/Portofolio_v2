@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Landing from "./Componants/Landing/Landing.jsx";
-import About from "./Componants/About/About.jsx";
+import About from "./Componants/about/About.jsx";
 import Skills from "./Componants/Skills/Skills.jsx";
 import Portofollio from "./Componants/Portofolio/Portofolio";
 import "./index.css";
