@@ -9,11 +9,11 @@ function Landing() {
     <div className="landing" id="landing">
       <Header />
       <img src={Logo} alt=""  className="logo"/>
-      <motion.div className="Content" >
+      <div className="Content" >
         <span> Hi! </span>
         <span>I'm Ahmed Abdelbaset</span>
         <a href="#Portfolio"> <img src={Share} alt="" /><p>work</p></a>
-      </motion.div>
+      </div>
     </div>
   );
 }
