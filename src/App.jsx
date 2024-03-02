@@ -4,6 +4,7 @@ import About from "./Componants/about/About.jsx";
 import Skills from "./Componants/Skills/Skills.jsx";
 import Portofollio from "./Componants/Portofolio/Portofolio.jsx";
 import "./index.css";
+import {motion, AnimatePresence } from "framer-motion";
 import Contact from "./Componants/Contact/Contact";
 function App() {
   const [load, setLoad] = useState(true);
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       {load ? (
+        <AnimatePresence>
           <div className="loader">
             <div className="dot"></div>
             <div className="dot"></div>
@@ -25,6 +27,7 @@ function App() {
             <div className="dot"></div>
             <div className="dot"></div>
           </div>
+        </AnimatePresence>
       ) : (
         <>
           <Landing />

@@ -1,12 +1,9 @@
 import image from "../../assets/WhatsApp Image 2024-02-09 at 14.19.08_6adcd389.jpg";
 import "./About.css";
 import Download from "../../assets/icons8-download-48.png";
-import { motion,useScroll,useTransform } from "framer-motion";
-function About({ scroll }) {
-  const {scrollY}=useScroll()
-  // const divPlace=useTransform(scrollY,[-100,0,300,301],[0,1,0])
+function About() {
   return (
-    <motion.div
+    <div
       className={`about `}
       id="about"
       initial={{ opacity: 1 }}
@@ -36,7 +33,7 @@ function About({ scroll }) {
           download cv
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
