@@ -5,11 +5,11 @@ import { HashLink as NavLink } from "react-router-hash-link";
 const Header = () => {
   return (
     <div className="Head">
-      <NavLink className={({isActive})=>isActive?'active':''} to ={'#landing'} end='true'/>
-        <NavLink className={({isActive})=>isActive?'active':''} to={"#about"}/>
-        <NavLink className={({isActive})=>isActive?'active':''} to={"#Skills"}/>
-        <NavLink className={({isActive})=>isActive?'active':''} to={"#Portfolio"}/>
-        <NavLink className={({isActive})=>isActive?'active':''} to={"#Contact"}/>
+      <NavLink  to ={'#landing'} end='true'/>
+        <NavLink  to={"#about"}/>
+        <NavLink  to={"#Skills"}/>
+        <NavLink  to={"#Portfolio"}/>
+        <NavLink  to={"#Contact"}/>
       {/* <a className={""}href={"#landing"} />
       <a className={""} href={"#about"} />
       <a className={""} href={"#Skills"} />
