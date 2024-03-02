@@ -10,11 +10,6 @@ const Header = () => {
         <NavLink  to={"#Skills"}/>
         <NavLink  to={"#Portfolio"}/>
         <NavLink  to={"#Contact"}/>
-      {/* <a className={""}href={"#landing"} />
-      <a className={""} href={"#about"} />
-      <a className={""} href={"#Skills"} />
-      <a className={""} href={"#Portfolio"} />
-      <a className={""} href={"#Contact"} /> */}
     </div>
   );
 };
