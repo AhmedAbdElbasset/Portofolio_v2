@@ -1,10 +1,9 @@
 import { useState } from "react";
-import Landing from "./Componants/Landing/Landing";
-import About from "./Componants/about/About";
-import Skills from "./Componants/Skills/Skills";
-import Portofollio from "./Componants/Portofolio/Portofolio";
+import Landing from "./Componants/Landing/Landing.jsx";
+import About from "./Componants/about/About.jsx";
+import Skills from "./Componants/Skills/Skills.jsx";
+import Portofollio from "./Componants/Portofolio/Portofolio.jsx";
 import "./index.css";
-import {motion, AnimatePresence } from "framer-motion";
 import Contact from "./Componants/Contact/Contact";
 function App() {
   const [load, setLoad] = useState(true);
