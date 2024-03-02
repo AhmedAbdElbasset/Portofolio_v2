@@ -15,7 +15,6 @@ const repos=[
         reoLink:'https://github.com/AhmedAbdElbasset/KASPER-TEMPLET'
     },
     {
-        key:'1',
         img:Elzero,
         title:'elzero',
         dis:'elzero portofolio',
@@ -24,7 +23,6 @@ const repos=[
 
     },
     {
-        key:'2',
         img:Dashbord,
         title:'dashbord',
         dis:'elzero dashbord',
@@ -33,7 +31,6 @@ const repos=[
 
     },
     {
-        key:'3',
         img:Moviex,
         title:'moviex',
         dis:'movies store',
@@ -41,7 +38,6 @@ const repos=[
         reoLink:'https://github.com/AhmedAbdElbasset/Moviex'
     },
     {
-        key:'4',
         img:HardRock,
         title:'hard rock',
         dis:'e commerce',
@@ -56,7 +52,7 @@ function Portofollio(){
             <p className="main-header">Portfolio</p>
             <div className="work">
                 {repos.map(repo=>(
-                    <div className='box' key={repo.key}>
+                    <div className='box' key={repo.title}>
                         <img src={repo.img} alt="" />
                         <div className='layer'>
                             <p>{repo.title}</p>
