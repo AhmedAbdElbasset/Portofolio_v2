@@ -7,10 +7,11 @@ import "./index.css";
 import {motion, AnimatePresence } from "framer-motion";
 import Contact from "./Componants/Contact/Contact";
 function App() {
-  const [load, setLoad] = useState(true);
+  const [load, setLoad] = useState(false);
   window.onload = function () {
     setTimeout(()=>{
-      setLoad(prevState=>!prevState)
+      // setLoad(prevState=>!prevState)
+      setLoad(false)
     },2000)
   };
   return (
